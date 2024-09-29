@@ -7,10 +7,9 @@ import {
 } from "@stream-io/video-react-sdk";
 import "@stream-io/video-react-sdk/dist/css/styles.css";
 
-const apiKey = "mmhfdzb5evj2";
-const token =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0RhcnRoX0tyYXl0IiwidXNlcl9pZCI6IkRhcnRoX0tyYXl0IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MjY4MTU2NjUsImV4cCI6MTcyNzQyMDQ2NX0.Gnk_AtkCH4XdJprbbwvj4ohQM2WoACQBmeoz14zTpPM";
-const userId = "Darth_Krayt";
+const apiKey = 'mmhfdzb5evj2';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL05vbV9Bbm9yIiwidXNlcl9pZCI6Ik5vbV9Bbm9yIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3Mjc1ODg2MjIsImV4cCI6MTcyODE5MzQyMn0.B2qOPCCg9oCDkzhWPv5t5re19gw9E0B5_6OUs0TEQw4';
+const userId = 'Nom_Anor';
 
 const client = new StreamVideoClient({
   apiKey,
