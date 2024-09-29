@@ -76,7 +76,7 @@ const FileUpload: React.FC<Props> = ({ fetchData }) => {
       }
 
       const response: AxiosResponse<any> = await axios.post(
-        "http://localhost:8001/api/transcode",
+        "https://app.learnixelearn.shop/api/transcode",
         formData,
         {
           onUploadProgress: (progressEvent: any) => {

@@ -27,7 +27,7 @@ const UploadMedia = (props: Props) => {
   const handleDelete = async () => {
     try {
       await axios.delete(
-        `http://localhost:8001/api/transcode/deleteData/${editData.id}`,
+        `https://app.learnixelearn.shop/api/transcode/deleteData/${editData.id}`,
         {
           withCredentials: true,
         }
@@ -112,7 +112,7 @@ const UploadMedia = (props: Props) => {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-       ` http://localhost:8001/api/transcode/getData`,
+       ` https://app.learnixelearn.shop/api/transcode/getData`,
         { withCredentials: true }
       );
       setData(response.data);
@@ -189,4 +189,4 @@ const UploadMedia = (props: Props) => {
   );
 };
 
-export default UploadMedia;
+export default UploadMedia;
