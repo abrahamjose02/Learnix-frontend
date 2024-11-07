@@ -15,8 +15,8 @@ import { useSelector } from "react-redux";
 import { FaMicrophone, FaMicrophoneSlash, FaVideo, FaVideoSlash } from "react-icons/fa";
 
 const apiKey = 'mmhfdzb5evj2';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL1F1aW5sYW5fVm9zIiwidXNlcl9pZCI6IlF1aW5sYW5fVm9zIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MzAwMzEzMzIsImV4cCI6MTczMDYzNjEzMn0.ozOo_dpJuGNea1BiN7UDyjDCb4V33hP40S6llk0CTL0';
-const userId = 'Quinlan_Vos';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0lHXzg4IiwidXNlcl9pZCI6IklHXzg4IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MzA5ODg0MTAsImV4cCI6MTczMTU5MzIxMH0.cgBtMLdw71uGmkgdshJBbifOaV8XicRsfja_CGr9pKw';
+const userId = 'IG_88';
 
 const user: User = {
   id: userId,
