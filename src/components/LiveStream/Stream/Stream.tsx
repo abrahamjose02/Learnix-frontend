@@ -15,8 +15,8 @@ import { useSelector } from "react-redux";
 import { FaMicrophone, FaMicrophoneSlash, FaVideo, FaVideoSlash } from "react-icons/fa";
 
 const apiKey = 'mmhfdzb5evj2';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0lHXzg4IiwidXNlcl9pZCI6IklHXzg4IiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MzA5ODg0MTAsImV4cCI6MTczMTU5MzIxMH0.cgBtMLdw71uGmkgdshJBbifOaV8XicRsfja_CGr9pKw';
-const userId = 'IG_88';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0dyYW5kX01vZmZfVGFya2luIiwidXNlcl9pZCI6IkdyYW5kX01vZmZfVGFya2luIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MzE4NDU5NzcsImV4cCI6MTczMjQ1MDc3N30.apb0IuypuDOPD5EzMPkm_f7Zjhfc0bwJBBbmSOUOLaI';
+const userId = 'Grand_Moff_Tarkin';
 
 const user: User = {
   id: userId,
