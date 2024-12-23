@@ -16,7 +16,7 @@ import { FaMicrophone, FaMicrophoneSlash, FaVideo, FaVideoSlash } from "react-ic
 
 const apiKey = "mmhfdzb5evj2";
 const token =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL1p1Y2t1c3MiLCJ1c2VyX2lkIjoiWnVja3VzcyIsInZhbGlkaXR5X2luX3NlY29uZHMiOjYwNDgwMCwiaWF0IjoxNzMzNDc3MDA1LCJleHAiOjE3MzQwODE4MDV9.eafZED1BB9FAoCtzP9LwhqRsqGGJ1ftFbXrqTvLVGPw";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL1p1Y2t1c3MiLCJ1c2VyX2lkIjoiWnVja3VzcyIsInZhbGlkaXR5X2luX3NlY29uZHMiOjYwNDgwMCwiaWF0IjoxNzM0OTQ4NjYxLCJleHAiOjE3MzU1NTM0NjF9.VIJzAOiHtIbbQChNK9SlLAHh6CiikVjd7q797Zuvv6Y";
 const userId = "Zuckuss";
 
 const user: User = {
